@@ -24,7 +24,7 @@ class liferay {
     cwd => "/home/vagrant",
     path => ["/usr/bin", "/bin"],
     require => Package["wget"],
-    timeout => 600
+    timeout => 6000
   }
 
   package {"unzip":
